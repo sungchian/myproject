@@ -20,11 +20,11 @@ public 	Student(){
 			+getScore(math)+"\t"+getScore(chinese));
 	}
 	
-	private String getScore(int score){
+	protected String getScore(int score){
 		if (score < pass){
 			return String.valueOf(score)+"*";
 		}else{
 			return String.valueOf(score);
-		}
+		}	
 	}
 }
