@@ -1,11 +1,11 @@
 package oo.stati;
 
-public class Student {
+public  class Student {
 	int english;
 	int math;
 	int chinese;
 	static int pass = 60;
-	public Student(){
+public 	Student(){
 		
 	}
 	public Student(int english, int math, int chinese) {

@@ -1,5 +1,7 @@
 package oo.stati;
 
+import java.awt.GraphicsDevice;
+
 public class Tester {
 
 	public static void main(String[] args) {
@@ -9,6 +11,7 @@ public class Tester {
 		stu1.pass = 100;
 		stu1.print();
 		stu2.print();
+		GraduateStudent gstu1 = new GraduateStudent(60, 50, 77);
 	}
 
 }
