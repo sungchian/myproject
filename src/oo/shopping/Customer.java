@@ -2,22 +2,20 @@ package oo.shopping;
 
 public class Customer {
 	int price;
-	int discount;
-	int cashback;
+	float discount = 0.1f;
+	float cashback = 0.05f;
 	
 	
-	public Customer(int price, int discount, int cashback){
+	public Customer(int price){
 		this.price = price;
-		this.discount = discount;
-		this.cashback = cashback;
+		
 	}
 	public void cCustomer(int price){
 		this.price = price;
+		System.out.println("your cost" + price);
 	}
 	public void print(){
-		System.out.println(price+"\n"+discount+"\n"+cashback);
+		System.out.println(price+"\t"+price+"\t0");
 	}
-	protected String getPrice(int price){
-		System.out.println(price*0.1);
-	}
+	
 }
