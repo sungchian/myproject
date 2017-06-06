@@ -11,6 +11,7 @@ public class Tester {
 				
 			}
 		};
+		GradeReport g = new GradeReport();
 	}
 
 }
