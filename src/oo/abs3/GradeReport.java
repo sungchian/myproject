@@ -4,13 +4,11 @@ package oo.abs3;
 
 		@Override
 		public void test() {
-			// TODO Auto-generated method stub
 			
 		}
 
 		@Override
 		public void print() {
-			// TODO Auto-generated method stub
 			
 		}
 
